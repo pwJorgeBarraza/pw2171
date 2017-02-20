@@ -1,0 +1,11 @@
+commit b68cf465caee93881222f4bdc5efdce4f5420662
+Author: pwJorgeBarraza <jofer.bz20@gmail.com>
+Date:   Thu Feb 16 14:27:34 2017 -0700
+
+    Cambio del archivo, segundo commit
+
+commit 004cdc6dc77c30c68c8bbb8ae4716625326aca69
+Author: pwJorgeBarraza <jofer.bz20@gmail.com>
+Date:   Thu Feb 16 14:08:26 2017 -0700
+
+    este es un commit
