@@ -15,8 +15,28 @@ Todos ellos en orden alfabetico
 Tanto elementos como atributos*/
 
 body{
-  background: blue;
+  margin: 0px auto;
+  background: white;
   font-size: 16px;
   max-width: 1024px;
-  border: 1px solid red;
+  border: 3px solid red;
+}
+header{
+  border: 1px solid blue;
+  text-align: center;
+}
+header img{
+  float: right;
+  margin: -70px 20px 0px 0px;
+  width: 100px
+}
+header nav ul li{
+  /*border: 1px solid tomato;*/
+  color: white;
+  border-radius: 5px;
+  background: blue;
+  padding: 5px 10px;
+  margin: 0px 10px 0px 0px;
+  width: 84px;
+  display: inline-block;
 }
