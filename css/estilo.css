@@ -1,0 +1,22 @@
+/*Orden en que van los elementos
+1. pseudo-elemntos
+--Contiene atributos
+2. etiquetas <etiqueta>
+--Contiene atributos
+3. Identificadores
+--Contiene atributos
+4. clases
+--Contiene atributos
+5. elemento de responsive design
+--Contiene atributos
+  (diseño adaptativo)
+
+Todos ellos en orden alfabetico
+Tanto elementos como atributos*/
+
+body{
+  background: blue;
+  font-size: 16px;
+  max-width: 1024px;
+  border: 1px solid red;
+}
