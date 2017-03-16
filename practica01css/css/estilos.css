@@ -9,6 +9,13 @@ form{
 	margin-right: 20px;
 	margin-top:-35px;
 }
+form input{
+	border-radius: 5px
+}
+form input[type="button"]{
+	background: green;
+	color: white;
+}
 header{
 	background: #B3D8EB;
 }
@@ -27,3 +34,51 @@ header nav ul li{
 	display: inline-block;
 	margin-right: 20px;
 }
+#seccion01{
+	border: 1px solid red;
+	text-align: center;
+}
+#seccion01 article img{
+	border: 5px solid rgba(150,150,150,0.5);
+	width: 98.5%;
+	margin-top: 8px;
+}
+#seccion02 article{
+	width: 32%;
+	display: inline-block;
+	vertical-align: top;
+}
+.unaSeccion{
+	font-size: 4.5em;
+	font-weight: bold;
+}
+.otraSeccion{
+	font-size: 3em;
+	font-weight: bold;
+}
+.unVideo{
+	font-size: 3em;
+	font-weight: bold;
+}
+article input[type="submit"]{
+	background:white;
+	color: blue;
+	border-radius: 5px;
+	text-align: center;
+}
+body p{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
