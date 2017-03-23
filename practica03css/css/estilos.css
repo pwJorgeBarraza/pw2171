@@ -1,0 +1,18 @@
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 1024px;
+}
+
+header form{
+	float: right;
+}
+header nav ul li{
+	border-bottom: 1px solid gray; /*dashed*/
+	display: inline-block;
+	color: gray;
+	font-size: 1em;
+	margin-right: 50px;
+/*	text-decoration: underline;*/
+}
