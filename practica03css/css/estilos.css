@@ -8,11 +8,99 @@ body{
 header form{
 	float: right;
 }
+header nav{
+	background: #D34100;
+	border-radius: 10px;
+	margin-top: 50px;
+	padding: 1px 0px 1px 0px;
+	width: 99.5%;
+}
 header nav ul li{
-	border-bottom: 1px solid gray; /*dashed*/
 	display: inline-block;
-	color: gray;
-	font-size: 1em;
+	color: white;
+	font-size: .8em;
 	margin-right: 50px;
 /*	text-decoration: underline;*/
+}
+#section1{
+	margin-top: 10px;
+	float: left;
+	width: 650px;
+}
+#section1 article img{
+	float: left;
+	margin-right: 10px;
+}
+#article2{
+	float: top;
+}
+#article2 input{
+	margin-top: 15px;
+}
+#section2{
+	float: left;
+	margin-top: 30px;
+}
+.tituloDelPost{
+	color: grey;
+	font-size: 2em;
+}
+.autor{
+	float: left;
+	border: 1px solid gray;
+	border-radius: 5px;
+	width: 450px;
+	padding: 2px 0px 2px 8px;
+	margin-bottom: 15px;
+}
+#article3{
+	border: 1px solid gray;
+	text-align: center;
+	padding-bottom: 10px;
+}
+#article3 form{
+	margin-top: 25px;
+}
+.Publicidad{
+	border: 2px;
+	padding: 7px 120px 7px 120px;
+	border-radius: 10px;
+	background: #D34100;
+	color: white;
+}
+#article4{
+	margin-top: 30px;
+	border: 1px solid gray;
+	text-align: center;
+	padding-bottom: 10px;
+}
+#article4 form{
+	border: 1px solid gray;
+	border-radius: 10px;
+	width: 300px;
+	margin-top: 15px;
+}
+.Buscador{
+	border: 2px;
+	padding: 7px 120px 7px 120px;
+	border-radius: 10px;
+	background: #D34100;
+	color: white;
+}
+#article5{
+	border: 1px solid gray;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 25px;
+}
+.Categorias{
+	border: 2px;
+	padding: 7px 120px 7px 120px;
+	border-radius: 10px;
+	background: #D34100;
+	color: white;
+}
+#article5 ul{
+	text-align: left;
+	color: gray;
 }
