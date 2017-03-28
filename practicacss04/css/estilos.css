@@ -1,0 +1,39 @@
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1424px;
+	min-width: 1424px;
+}
+header{
+	text-align: center;
+	background: #265D8E;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 8PX;
+}
+header nav{
+	text-align: right;
+	background: #ECECEE;
+	border-radius: 5px;
+}
+section{
+	display: inline-block;
+	vertical-align: top;
+}
+#section1{
+	margin-top: -18px;
+	border: 15px solid #ECECEE;
+	margin-right:-5px;
+	width: 18%;
+}
+
+#panel{
+	width: 100%;
+}
+
+#section2{
+	margin-top: -18px;
+	border: 15px solid white;
+	border-radius: 5px;
+}
