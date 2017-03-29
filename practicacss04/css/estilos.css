@@ -35,7 +35,13 @@ section{
 	margin-right:-5px;
 	width: 18%;
 }
-
+#s1a1 ul{
+	list-style: none;
+}
+#s1a1 li:before{
+	color: white;
+	content: "</>";
+}
 #panel{
 	width: 100%;
 }
@@ -136,8 +142,18 @@ section{
 #ajustes{
 	width: 60%;
 }
+#progress{
+	vertical-align: middle;	
+}
+#s1a2 form{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background: #265c90;
+}
 .panel{
 	color: white;
 	background: #265e91;
 	margin-left: -5px;
+	padding: 2px 28px 5px 0px;
 }
+
