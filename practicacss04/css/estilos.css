@@ -14,11 +14,16 @@ header img{
 header nav ul li{
 	display: inline-block;
 	margin-right: 8PX;
+	margin-top: 9px;
 }
 header nav{
 	text-align: right;
 	background: #ECECEE;
 	border-radius: 5px;
+	height: 70px;
+}
+header nav ul li{
+	margin-right: 0px;
 }
 section{
 	display: inline-block;
@@ -36,7 +41,7 @@ section{
 }
 
 #section2{
-	margin-top: -18px;
+	margin-top: 0px;
 	border: 15px solid white;
 	border-radius: 5px;
 	width: 780px;
@@ -55,7 +60,13 @@ section{
 	display: inline-block;
 	vertical-align: top;
 	width: 180px;
-	border: 1px solid red;
+	text-align: center;
+	height: 170px;
+	margin-right: 5px;
+}
+#s2-1 article img{
+	width: 90px;
+	margin-top: 10px;
 }
 #s2-2 article{
 	display: inline-block;
@@ -82,6 +93,18 @@ section{
 	background: #25A72D;
 	color: white;
 }
+#cubo2{
+	background: #216ea6;
+	color: white;
+}
+#cubo3{
+	background: #7d24a4;
+	color: white;
+}
+#cubo4{
+	background: #a31b1d;
+	color: white;
+}
 #barras{
 	width: 180px;
 }
@@ -92,9 +115,29 @@ section{
 #s1a2{
 	color: #a4a2a4;
 }
-
+#s1a1{
+	background: #204a72;
+	color: white;
+}
+#s1a1 ul{
+	margin-top: -5px;
+}
+#panel{
+	height: 35px;
+}
+#mensajes{
+	width: 100%;
+	margin-right: -60px;
+}
+#notificaciones{
+	width: 70%;
+	margin-right: -30px;
+}
+#ajustes{
+	width: 60%;
+}
 .panel{
 	color: white;
-	background: #275d91;
+	background: #265e91;
 	margin-left: -5px;
 }
