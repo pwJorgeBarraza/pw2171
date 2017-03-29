@@ -1,12 +1,15 @@
 body{
 	font-size: 16px;
 	margin: 0 auto;
-	max-width: 1424px;
-	min-width: 1424px;
+	max-width: 1024px;
+	min-width: 1024px;
 }
 header{
 	text-align: center;
 	background: #265D8E;
+}
+header img{
+	width: 200px;
 }
 header nav ul li{
 	display: inline-block;
@@ -36,4 +39,62 @@ section{
 	margin-top: -18px;
 	border: 15px solid white;
 	border-radius: 5px;
+	width: 780px;
+	color: #a4a2a4;
+}
+#section2 article{
+/*	width: 180px;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid red;
+	margin-right: 10px;
+	height: 160px;
+	vertical-align: top;*/
+}
+#s2-1 article{
+	display: inline-block;
+	vertical-align: top;
+	width: 180px;
+	border: 1px solid red;
+}
+#s2-2 article{
+	display: inline-block;
+	width: 180px;
+	text-align: center;
+	background: #4a6bad;
+	color: white;
+	vertical-align: top;
+	margin-right: 3px;
+	height: 190px;
+}
+#s2-2 input{
+	margin-top: 10px;
+	background: #65bed6;
+	color: white;
+}
+#s2-2 img{
+	width: 130px;
+}
+#s2panels{
+	width: 750px;
+}
+#cubo1{
+	background: #25A72D;
+	color: white;
+}
+#barras{
+	width: 180px;
+}
+#progress{
+	width: 25px;
+	height: 25px;
+}
+#s1a2{
+	color: #a4a2a4;
+}
+
+.panel{
+	color: white;
+	background: #275d91;
+	margin-left: -5px;
 }
