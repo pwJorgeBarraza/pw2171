@@ -1,0 +1,103 @@
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 1024px;
+}
+header form{
+  display: inline-block;
+  float: right;
+}
+header img{
+  display: inline-block;
+}
+header nav{
+  margin-top: 50px;
+  margin-left: -35px;
+  border-bottom: 1px dashed #b8b8b8 ; /*dashed*/
+  padding-bottom: 20px;
+}
+header nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+section{
+  display: inline-block;
+  vertical-align: top;
+}
+footer{
+  margin-top: 20px;
+}
+footer article{
+  width: 300px;
+  display: inline-block;
+  margin-right: -100px;
+}
+footer article form{
+  font-size: 14px;
+  color: #b8b8b8;
+  margin-top: 20px;
+}
+#gotoshop{
+  float: right;
+  margin-top: 30px;
+}
+#firstbike{
+  margin-top: 10px;
+}
+#buy{
+  margin-left: 600px;
+  margin-top: -130px;
+  vertical-align: middle;
+  width: 5%;
+}
+#hr1{
+}
+#section1{
+  width: 50%;
+}
+#section2{
+  width: 49%;
+}
+#bike{
+  width: 75%;
+}
+#years{
+  width: 26%;
+  margin-top: -100px;
+}
+#s2videos img{
+  width: 45%;
+}
+#video1{
+    margin-right: 30px;
+}
+#footerA1{
+  margin-top: 30px;
+}
+#logosfooter{
+  width: 10%;
+  vertical-align: middle;
+}
+.firstsense{
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.balance{
+  font-size: 60px;
+  font-family: sans-serif;
+  color: #7feb59;
+    font-weight: bold;
+    border-bottom: 1px dashed #b8b8b8 ; /*dashed*/
+    padding-right: 190px;
+}
+.footersSpan{
+  font-size: 16px;
+  color: #b8b8b8;
+  border-bottom: 1px solid #b8b8b8; /*dashed*/
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
