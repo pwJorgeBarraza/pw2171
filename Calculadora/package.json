@@ -1,0 +1,21 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "calculadora,electron,pw",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Calculadora",
+    "electron",
+    "basica"
+  ],
+  "author": "Jorge Barraza Z",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "electron-packager": "^8.6.0"
+  }
+}
