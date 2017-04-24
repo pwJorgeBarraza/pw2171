@@ -1,0 +1,21 @@
+{
+  "name": "randomuser",
+  "version": "1.0.0",
+  "description": "Obtener info de usuarios aleatorios",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "info",
+    "suarios",
+    "aleatorio"
+  ],
+  "author": "Jorge Barraza Z",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.6",
+    "electron-require": "^0.3.0",
+    "jquery": "^3.2.1"
+  }
+}
