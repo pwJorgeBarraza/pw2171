@@ -20,7 +20,7 @@ function muestraPantallaPrincipal(){
 		protocol: 'file',
 		slashes: true
 	}))
-	PantallaPrincipal.Show()
+	PantallaPrincipal.Show();
 }
 //la aplicacion ejecuta este evento cuando
 //el archivo main.js se carga en memoria
