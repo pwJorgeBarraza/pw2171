@@ -1,12 +1,9 @@
-// const app=require('electron').app
-// const BrowserWindow=require('electron').BroserWindow
-const {app, BrowserWindow} = require('electron')
-//ruta donde se encuentra nuestro proyecto
+const {app,BrowserWindow} = require('electron')
+//Ruta donde se encuentra nuestro proyecto
 const path = require('path')
-//ruta pero el formato url
-const url = require('url')
+//Ruta pero en formato URL
+const url  = require('url')
 let PantallaPrincipal;
-
 function muestraPantallaPrincipal(){
 	PantallaPrincipal = new BrowserWindow({
 		width:1024,
@@ -20,8 +17,12 @@ function muestraPantallaPrincipal(){
 		protocol: 'file',
 		slashes: true
 	}))
-	PantallaPrincipal.Show();
+	//Abre la pantalla de Inspección, donde se encuentra
+	//la consola de Chrome dentro de electron.
+	// PantallaPrincipal.webContents.openDevTools();
+	PantallaPrincipal.show()
 }
-//la aplicacion ejecuta este evento cuando
-//el archivo main.js se carga en memoria
-app.on('ready', muestraPantallaPrincipal)
+
+//La aplicación ejecuta este evento cuando
+//el archivo main.js se carga en memoria.
+app.on('ready',muestraPantallaPrincipal)

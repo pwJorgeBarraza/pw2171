@@ -6,6 +6,16 @@ img{
 	border-radius: 200px;
 	width: 200px;
 }
+#sectionButton{
+	border: 2px solid black;
+	float: left;
+	width: 20%;
+}
+#sectionDatos{
+	border: 2px solid black;
+	float: right;
+	width: 70%;
+}
 #txtNombre{
 	font-size: 2em;
 }
